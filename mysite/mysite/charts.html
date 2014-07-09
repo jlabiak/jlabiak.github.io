@@ -1,0 +1,20 @@
+{% load chartkick %}
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Rockerbox demo</title>
+
+        <script src="http://www.google.com/jsapi"></script>
+        <script src="http://ankane.github.io/chartkick/chartkick.js"></script>
+
+        <!--
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        -->
+    </head>
+    <body>
+        {% column_chart categories with id='categories' %}
+        {% column_chart funding with id='rock' %} 
+    </body>
+</html>

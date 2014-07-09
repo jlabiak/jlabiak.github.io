@@ -1,0 +1,25 @@
+[
+    {
+        "id": "categories",
+        "title": "Categorization of Companies on Crunchbase",
+        "titlePosition": "out",
+        "vAxis": {
+            "title": "Number of Companies"
+        },
+        "hAxis": {
+            "title": "Category"
+        }
+    },
+
+    {
+        "id": "rock",
+        "title": "Rockerbox Funding by Year",
+        "titlePosition": "out",
+        "vAxis": {
+            "title": "Amount Raised ($)"
+        },
+        "hAxis": {
+            "title": "Year"
+        }
+    }
+]
